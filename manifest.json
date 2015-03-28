@@ -1,0 +1,17 @@
+{
+  "name":             "progtest",
+  "version":          "1.0.0",
+  "homepage_url":     "https://github.com/Mikulas/progtest",
+
+  "manifest_version": 2,
+
+  "description": "",
+
+  "content_scripts": [
+    {
+        "matches":  ["https://progtest.fit.cvut.cz/*"],
+        "js":       ["vendor/underscore.js", "src/main.js"],
+        "css":      ["style.css"]
+    }
+  ]
+}

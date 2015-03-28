@@ -1,0 +1,9 @@
+.hidden {
+	display: none;
+}
+.result-header {
+	cursor: pointer;
+}
+.outBox > .header {
+	display: none;
+}
